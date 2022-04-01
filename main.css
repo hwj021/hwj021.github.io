@@ -1,0 +1,27 @@
+body{
+    background: rgb(29, 29, 29);
+    text-align: center;
+    margin: 0;
+}
+p{
+    color:blue;
+    font-family: 'Lato', sans-serif;
+    font-size: 225%;
+}
+.main{
+    margin-top: 20%;
+}
+
+a.link{
+font-size: 50px;
+color: white;
+text-decoration: none;
+font-family: 'Maven Pro', sans-serif;
+transition: all 0.25s ease-in-out;
+}
+
+.zmiana :hover{
+    font-size: 350%;
+    color:rgba(200, 199, 199, 0.698);
+}
+    
