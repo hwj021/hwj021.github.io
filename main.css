@@ -9,6 +9,7 @@ p{
     font-family: 'Lato', sans-serif;
     font-size: 225%;
 	z-index: 2;
+	margin-top: -15px;
 }
 .main {
 	height: 100vh;
