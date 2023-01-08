@@ -1,59 +1,45 @@
-body{
-	font-family: 'Open Sans', sans-serif;
-	line-height: 1.5;
-    margin: 0;
-	padding: 0;
-}
-p{
-    color:gray;
-    font-family: 'Lato', sans-serif;
-    font-size: 225%;
-	z-index: 2;
-	margin-top: -15px;
-}
-.main {
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	color: #fff;
-	padding: 0 20px;
-}
-.video-container {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-}
-.video-container video {
-	min-width: 100%;
-	min-height: 100%;
-  position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	filter: brightness(20%);
-	z-index: 1;
-}
-.all{
-    z-index: 2;
-    align-items: center;
-    justify-content: center;
+html body{
+    background-color: #131313;
     text-align: center;
-    margin-bottom: auto;
-    margin-top: 15%;
+    color: white;
 }
-a.link{
-    font-size: 50px;
+
+h1{
+    font-family: 'thin';
+    margin-top: 20%;
+    font-size: 300%;
+}
+
+h2{
+    font-family: 'thin';
+    font-size: 250%;
+    transition: all 0.5s;
+    transition: opacity 0.5s;
+}   
+
+a{
+    font-family: 'thin';
     color: white;
     text-decoration: none;
-    font-family: 'Maven Pro', sans-serif;
-    transition: all 0.25s ease-in-out;
+    font-size: 56px;
+    margin: 15px;
+    transition: opacity 0.5s;
 }
-.all .link :hover{
-    font-size: 400%;
-    color:rgba(200, 199, 199, 0.698);
+
+p{
+    font-family: 'thin';
+    color: white;
+    text-decoration: none;
+    font-size: 56px;
+    margin: 15px;
+    transition: opacity 0.5s;
 }
+
+@font-face { 
+    font-family: 'thin'; 
+    src: url('Gotham-Font/Gotham-thin.otf'); 
+} 
+@font-face { 
+    font-family: 'x-light'; 
+    src: url('Gotham-Font/Gotham-XLight.otf'); 
+} 
