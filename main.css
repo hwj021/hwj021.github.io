@@ -2,23 +2,21 @@ html body{
     background-color: #131313;
     text-align: center;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1{
-    font-family: 'thin';
     margin-top: 20%;
     font-size: 300%;
 }
 
 h2{
-    font-family: 'thin';
     font-size: 250%;
     transition: all 0.5s;
     transition: opacity 0.5s;
 }   
 
 a{
-    font-family: 'thin';
     color: white;
     text-decoration: none;
     font-size: 56px;
@@ -27,19 +25,9 @@ a{
 }
 
 p{
-    font-family: 'thin';
     color: white;
     text-decoration: none;
     font-size: 56px;
     margin: 15px;
     transition: opacity 0.5s;
 }
-
-@font-face { 
-    font-family: 'thin'; 
-    src: url('Gotham-Font/Gotham-thin.otf'); 
-} 
-@font-face { 
-    font-family: 'x-light'; 
-    src: url('Gotham-Font/Gotham-XLight.otf'); 
-} 
