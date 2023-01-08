@@ -21,7 +21,7 @@ window.addEventListener('load', function() {
 //XDDDDDDDDDDDDDDDD
 hide.addEventListener('click', () => {
     if (hide.style.opacity === '0') {
-        hide.style.opacity = '1';
+        //
     } else {
         eins.style.display = 'inline';
         zwei.style.display = 'inline';
