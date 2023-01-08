@@ -1,4 +1,3 @@
-//7.01.2023
 const hide = document.getElementById("hide");
 const eins = document.getElementById("1");
 const zwei = document.getElementById("2");
@@ -12,6 +11,7 @@ window.addEventListener('load', function() {
     welcome.style.display = 'none';
 });
 
+//XDDDDDDDDDDDDDDD
 hide.addEventListener('click', () => {
     if (hide.style.opacity === '0') {
         hide.style.opacity = '1';
