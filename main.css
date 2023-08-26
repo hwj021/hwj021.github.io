@@ -5,15 +5,41 @@ html body{
     font-family: 'Montserrat', sans-serif;
 }
 
-h1{
+h1 {
     margin-top: 20%;
     font-size: 300%;
+    transition: all 1s ease-in-out;
 }
+
+h1:hover {
+    color: rgb(138, 138, 138);
+    animation: colorChange 1s ease-in-out 1s forwards;
+}
+
+@keyframes colorChange {
+    to {
+        color: inherit;
+    }
+}
+
 
 h2{
     font-size: 250%;
     transition: all 0.5s ease-in-out;
-}   
+}  
+
+h2:hover {
+    color: rgb(138, 138, 138);
+    animation: colorChange 1s ease-in-out 1s forwards;
+}
+
+@keyframes colorChange {
+    to {
+        color: inherit;
+    }
+}
+
+
 
 a{
     color: #131313;
@@ -22,11 +48,6 @@ a{
     margin: 15px;
     transition: all 0.5s ease-in-out;
 }
-
-
-/* a:hover{
-
-} */
 
 
 
