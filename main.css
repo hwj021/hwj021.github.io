@@ -15,7 +15,7 @@ html body{
     left: 0;
     background: linear-gradient(to right, #FFD700, #00FF00, #FF6347, #00BFFF, #4B0082, #FFD700);
     background-size: 1500% 100%;
-    animation: rainbow-neon-glow 10s linear infinite;
+    animation: rainbow-neon-glow 15s linear infinite;
 }
 
 @keyframes rainbow-neon-glow {
@@ -32,10 +32,10 @@ html body{
         background-position: 300% 0;
     }
     66.666% {
-        background-position: 400% 0;
+        background-position: 200% 0;
     }
     83.333% {
-        background-position: 500% 0;
+        background-position: 100% 0;
     }
 }
 
