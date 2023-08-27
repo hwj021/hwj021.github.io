@@ -1,7 +1,7 @@
 const hide = document.getElementById("hide");
-const eins = document.getElementById("1");
-const zwei = document.getElementById("2");
-const drei = document.getElementById("3");
+const eins = document.getElementById("e");
+const zwei = document.getElementById("z");
+const drei = document.getElementById("d");
 
 window.addEventListener('load', function() {
     eins.style.display = 'none';
