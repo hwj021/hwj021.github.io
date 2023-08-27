@@ -55,7 +55,7 @@ setInterval(updateClock, 1000);
   
     let message = '';
   
-    if (currentHour >= 0 && currentHour < 12) {
+    if (currentHour >= 0 && currentHour < 8) {
       message = 'prob sleeping or playing valo';
     } else if (currentHour >= 8 && currentHour < 16) {
       message = 'in school';
